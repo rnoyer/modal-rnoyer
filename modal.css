@@ -1,0 +1,36 @@
+#modal {
+    position: relative;
+    color: grey;
+    background-color: #ffffff;
+    border: 1px solid grey;
+    border-radius: .5rem;
+    margin: auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    width: 20rem;
+}
+
+.modal-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    margin: .5rem;
+    transition-property: background-color;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(0, 0, .2, 1);
+}
+
+.modal-button:hover {
+    background-color: color-mix(in srgb, gray, transparent 80%);
+}
+
+.modal-button:active {
+    background-color: color-mix(in srgb, gray, transparent 60%);
+}
+
+::backdrop {
+    background-color: color-mix(in srgb, gray, transparent 50%);
+}
