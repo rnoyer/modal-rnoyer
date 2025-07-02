@@ -1,0 +1,24 @@
+{
+  "name": "modal-rnoyer",
+  "version": "1.0.0",
+  "description": "A Modal React component ready to use",
+  "main": "Modal.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnoyer/modal-rnoyer.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "modal"
+  ],
+  "author": "romain noyer <romain.noyer@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnoyer/modal-rnoyer/issues"
+  },
+  "homepage": "https://github.com/rnoyer/modal-rnoyer#readme"
+}
