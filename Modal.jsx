@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./modal.css";
 
-export default function Modal({ open, onClose }) {
+export default function Modal({ open, onClose, content }) {
   const dialogRef = useRef(null);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function Modal({ open, onClose }) {
     } else {
       dialog.close();
     }
-    // Close handler for clicking pressing Esc
+    // Close handler for pressing Esc
     const handleClose = () => onClose && onClose();
     dialog.addEventListener("close", handleClose);
     return () => dialog.removeEventListener("close", handleClose);
@@ -24,7 +24,7 @@ export default function Modal({ open, onClose }) {
         <button className="modal-button" onClick={onClose} type="button">
           ✕
         </button>
-        <p className="modal-content">Employee Created!</p>
+        <p className="modal-content">{content}</p>
       </form>
     </dialog>
   );
