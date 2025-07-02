@@ -14,7 +14,7 @@ This is some text the modal will display.
 ## Install package
 
 ```bash
-npm install modal-rnoyer
+npm i modal-rnoyer
 ```
 
 ## Import Modal compornent
