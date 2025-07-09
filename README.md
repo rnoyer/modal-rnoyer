@@ -11,6 +11,10 @@ These props will keep track of wether it should open or close itself.
 ### content (string)
 This is some text the modal will display.
 
+## Prerequisites
+- Node version : 20
+- NPM version : >=10.8.2 
+
 ## Install package
 
 ```bash
