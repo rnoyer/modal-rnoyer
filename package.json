@@ -1,6 +1,6 @@
 {
   "name": "modal-rnoyer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Modal React component ready to use",
   "main": "Modal.jsx",
   "scripts": {
